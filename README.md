@@ -1,0 +1,1 @@
+En este repositorio se estan subiendo los Tabajos Prácticos de la materia Programación Orientada a Objetos pertenecientes a la carrera TU en Tecnologías de Programación de la Universidad Provincial de Sudoeste (UPSO).
