@@ -1,0 +1,28 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Página-1" id="mBr_YOC7pgbTt42AxD6W">
+    <mxGraphModel dx="762" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oj1JO6zZIN4o-wNXXBbB-6" value="Televisor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="500" width="270" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="oj1JO6zZIN4o-wNXXBbB-7" value="- _marca: str&lt;div&gt;- _totalCanales: int&lt;/div&gt;&lt;div&gt;- _canalActual: int&lt;/div&gt;&lt;div&gt;- _volumen = 0&lt;/div&gt;&lt;div&gt;- _encendido = False : bool&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="oj1JO6zZIN4o-wNXXBbB-6" vertex="1">
+          <mxGeometry y="26" width="270" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="oj1JO6zZIN4o-wNXXBbB-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="oj1JO6zZIN4o-wNXXBbB-6" vertex="1">
+          <mxGeometry y="120" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="oj1JO6zZIN4o-wNXXBbB-9" value="+ __init__(marca: str, totalCanales: int,&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;canalActual: int, volumen: int,&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;encendido: bool)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getMarca(): str&lt;/div&gt;&lt;div&gt;+ getTotalCanales(): int&lt;/div&gt;&lt;div&gt;+ getCanalActual(): int&lt;/div&gt;&lt;div&gt;+ getVolumen(): int&lt;/div&gt;&lt;div&gt;+ getEncendido(): bool&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ setMarca ( nuevaMarca: str )&lt;/div&gt;&lt;div&gt;+ setTotalCanales(nuevoTotalCanales: int )&lt;/div&gt;&lt;div&gt;+ setCanalActual( nuevoCanal: int )&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ canalSiguiente(): int&lt;/div&gt;&lt;div&gt;+ canalAnterior(): int&lt;/div&gt;&lt;div&gt;+ subirVolumen(): int&lt;/div&gt;&lt;div&gt;+ bajarVolumen(): int&lt;/div&gt;&lt;div&gt;+ silenciar(): int&lt;/div&gt;&lt;div&gt;+ encender(): bool&lt;/div&gt;&lt;div&gt;+ apagar(): bool&lt;/div&gt;&lt;div&gt;+ canalPrevio(): int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="oj1JO6zZIN4o-wNXXBbB-6" vertex="1">
+          <mxGeometry y="128" width="270" height="332" as="geometry" />
+        </mxCell>
+        <mxCell id="Fk_EWxgZFEaCAAzcU-Pw-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fk_EWxgZFEaCAAzcU-Pw-1" target="oj1JO6zZIN4o-wNXXBbB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fk_EWxgZFEaCAAzcU-Pw-1" value="inicializo volumen en cero y encendido en False" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="680" y="540" width="80" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
